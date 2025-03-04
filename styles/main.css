@@ -1,0 +1,39 @@
+h1, h2, h3 {
+    color: #FF4B4B;
+}
+
+.stButton>button {
+    border-radius: 8px;
+    padding: 10px 20px;
+    background-color: #FF4B4B;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.stButton>button:hover {
+    background-color: #FF7070;
+}
+
+.result-box {
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.strong {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.moderate {
+    background-color: #FFC107;
+    color: black;
+}
+
+.weak {
+    background-color: #F44336;
+    color: white;
+}

@@ -90,8 +90,6 @@ if st.button("Generate Password"):
 
 
 
-# Footer
-st.markdown("<p style='text-align: center; color: grey;'>Developed with ❤️ By Ismail Ahmed Shah</p>", unsafe_allow_html=True)
 
 # --- SIDEBAR TIPS ---
 st.sidebar.image("https://cdn-icons-png.flaticon.com/512/4359/4359875.png", width=100)
@@ -103,6 +101,12 @@ st.sidebar.info("""
 - Do not reuse passwords across sites.
 - Consider using a password manager.
 """)
+
+st.sidebar.markdown("---")
+
+# Footer
+st.sidebar.markdown("<p style='text-align: center; color: grey;'>Developed with ❤️ By Ismail Ahmed Shah</p>", unsafe_allow_html=True)
+
 
 # Add a 'Contact Us' section
 st.sidebar.markdown("---")

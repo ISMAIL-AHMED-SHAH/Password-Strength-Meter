@@ -8,6 +8,7 @@ from pathlib import Path
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = current_dir / "styles" / "main.css"
 
+
 # --- PAGE CONFIGURATION ---
 st.set_page_config(
     page_title="Password Strength Meter",
@@ -16,6 +17,7 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
+st.image("https://cdn-icons-png.flaticon.com/512/4359/4359875.png", width=100)
 # --- LOAD STYLES ---
 with open(css_file) as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
